@@ -6,7 +6,7 @@
   * Allow a user to register
   * Allow a registered user to log in
   * Allow a logged in user to make text-based blog posts
-* Extra functionality might appear one day which
+ * Extra functionality might appear one day which
   * Allows one user to 'follow' another
   * Allows users to customise the aesthetics of their personal pages
 
