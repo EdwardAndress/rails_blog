@@ -1,8 +1,13 @@
 <h3>...I would like to share it with you</h3>
 
-<%= form_for :post do |f| %>
+<%= form_for :post, url: posts_path do |f| %>
 
 	<%= f.label :title, "Cud of the Day" %>
 	<%= f.text_field :title %>
+
+	<%= f.label :content, "Tastes like..." %>
+	<%= f.text_field :content %>
+
+	<%= f.submit "Burp" %>
 
 <% end %>
