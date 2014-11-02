@@ -6,7 +6,7 @@
   * Allow a user to register
   * Allow a registered user to log in
   * Allow a logged in user to make text-based blog posts
-* Extra functionality might appear one day which
+ * Extra functionality might appear one day which
   * Allows one user to 'follow' another
   * Allows users to customise the aesthetics of their personal pages
 
@@ -14,6 +14,8 @@
  * Learbing how to set up Rails
  * Learning how to use databases within Rails
  
+###But, it's not ready yet... So...
+
 ####(Don't) Set it up:
 ```sh
 $ git clone anything_other_than_this
