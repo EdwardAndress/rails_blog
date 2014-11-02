@@ -1,7 +1,13 @@
 source 'https://rubygems.org'
 
-gem 'rspec-rails', group: :test
-gem 'capybara', group: :test
+group :development, :test do 
+	gem 'rspec-rails'
+	gem 'rspec-collection_matchers'
+	gem 'capybara'
+	gem 'poltergeist'
+	gem 'database_cleaner'
+	gem 'warden'
+end
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
