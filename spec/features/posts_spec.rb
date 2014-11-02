@@ -35,4 +35,18 @@ describe 'posts' do
 
 	end
 
+	context 'after a user has added a post' do
+
+		it 'shows the post on the users home page' do
+			visit '/posts'
+			click_link 'I have been ruminating on this for a while now and...'
+			fill_in 'Cud of the Day', with: 'Hey hey hey'
+			fill_in 'Tastes like...', with: 'Poo and wee'
+			click_button 'Burp'
+			expect(current_path).to eq '/posts'
+			expect(page).to have_content 'Poo and wee'
+		end
+
+	end
+
 end

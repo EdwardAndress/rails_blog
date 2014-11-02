@@ -1,3 +1,13 @@
 <%= link_to "I have been ruminating on this for a while now and...", new_post_path %>
 
-<h3>Stop a while and chew some fat why don't ya?</h3>
+<% if @posts.any? %>
+
+	<% @posts.each do |post| %>
+
+		<ul>
+			<li><h2><%= post.title %></h2><br><%= post.content %></li>
+		</ul>
+	<% end %>
+<% else %>
+	<h3>Stop a while and chew some fat why don't ya?</h3>
+<% end %>
