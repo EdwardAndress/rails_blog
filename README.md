@@ -14,6 +14,8 @@
  * Learbing how to set up Rails
  * Learning how to use databases within Rails
  
+###But, it's not ready yet... So...
+
 ####(Don't) Set it up:
 ```sh
 $ git clone anything_other_than_this
